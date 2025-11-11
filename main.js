@@ -9,13 +9,13 @@ function cekNilai () {
   // menentukan angka  A B C D berdasarkan isi variabel "nilai "
   // menggunakan percabangan if (jika)
   // dan membandingkan variabel "nilai"
-  if (nilai >=88) {
+  if (nilai >= 88) {
     hasil ="Nilai A (sangat baik)"
-  } else if (nilai >=75) {
+  } else if (nilai >= 75) {
     hasil = "nilai B (baik)"
-  } else if (nilai >=74) {
+  } else if (nilai >= 50) {
     hasil = "nilai C (cukup)"
-  } else if (nilai >=49) {
+  } else if (nilai >= 0) {
     hasil = "nilai D (kurang)"
   }
   
